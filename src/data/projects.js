@@ -1,47 +1,69 @@
+import musicImg from "../images/bb.png";
+import taskimg from "../images/task.png";
+import rbuilderimg from "../images/rbuilder.png";
+import vowimg from "../images/vow.png";
+import cards from "../images/cards.png";
+import cine from "../images/cine.png";
 export const projects = [
   {
     id: 1,
-    title: "AI Comment Responder",
+    title: "Music-Production Portfolio",
     description:
-      "Intelligent system that analyzes context and generates on-brand, human-like replies to comments across platforms.",
-    image:
-      "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    techStack: ["React", "Node.js", "Express", "MongoDB", "OpenAI API"],
-    liveUrl: "#",
-    githubUrl: "#",
+      "Modern beach-themed music web app with immersive UI, responsive design, and smooth music-focused user experience",
+    image: musicImg,
+    techStack: ["React", "TypeScript", "Vite", "shadcn-ui", "Tailwind CSS"],
+    liveUrl: "https://beachbeats.netlify.app",
+    githubUrl: "https://github.com/NAVEENU90/BeachBeats",
   },
   {
     id: 2,
-    title: "Crime Pattern Analysis",
+    title: "TRACKPAD-Daily tasks tracker",
     description:
-      "Data-driven dashboard for visualizing crime trends, hotspots, and correlations to support smarter decision making.",
-    image:
-      "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    techStack: ["React", "D3.js", "Express", "MongoDB"],
-    liveUrl: "#",
-    githubUrl: "#",
+      "TaskPad – Modern task management web application with clean UI and productivity-focused experience",
+    image: taskimg,
+    techStack: ["JS", "CSS", "HTML", "Tailwind CSS"],
+    liveUrl: "https://taskpad-eight.vercel.app",
+    githubUrl: "https://github.com/NAVEENU90/Taskpad",
   },
   {
     id: 3,
-    title: "Exam Guard AI System",
+    title: "Resume Builder",
     description:
-      "Real-time proctoring assistant that detects suspicious behavior, tracks anomalies, and flags potential violations.",
-    image:
-      "https://images.pexels.com/photos/1181534/pexels-photo-1181534.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    techStack: ["React", "TensorFlow.js", "Node.js", "WebRTC"],
-    liveUrl: "#",
-    githubUrl: "#",
+      "Responsive resume builder application designed for creating professional resumes with dynamic editing and downloadable output.",
+    image:rbuilderimg,
+    techStack: ["React", "Tailwind CSS", "Node.js", "Material UI"],
+    liveUrl: "https://resumebuilder-frontend-wine.vercel.app",
+    githubUrl: "https://github.com/NAVEENU90/resumebuilder-frontend",
   },
   {
     id: 4,
-    title: "Weather App",
+    title: "VOWVENUE – Elegant Wedding Venue Website",
     description:
-      "Clean and minimal weather experience with location search, 7-day forecast, and animated climate visuals.",
-    image:
-      "https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "Elegant wedding venue website delivering modern design, smooth navigation, and venue showcase experience.",
+    image:vowimg,
     techStack: ["React", "Tailwind", "OpenWeather API"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://naveenu90.github.io/VOWVENUE",
+    githubUrl: "https://github.com/NAVEENU90/VOWVENUE",
+  },
+  {
+    id: 5,
+    title: "PAIR MASTER – Interactive Card Matching Game",
+    description:
+      "PAIR MASTER – Interactive memory card game with smooth UI and engaging matching mechanics.",
+    image:cards,
+    techStack: ["Javascript","HTML", "CSS"],
+    liveUrl: "https://naveenu90.github.io/PAIR-MASTER/",
+    githubUrl: "https://github.com/NAVEENU90/PAIR-MASTER",
+  },
+  {
+    id: 6,
+    title: "CINIVERSE – Modern movie discovery website with clean design and immersive browsing experience.",
+    description:
+      "Responsive movie showcase website built for exploring films, featured content, and cinematic browsing with clean UI and engaging visual design.",
+    image:cine,
+    techStack: ["HTML", "CSS",],
+    liveUrl: "https://naveenu90.github.io/CINIVERSE",
+    githubUrl: "https://github.com/NAVEENU90/CINIVERSE",
   },
 ];
 
